@@ -35,7 +35,7 @@ class PynnBrunnelBrianNestSpinnaker(BaseTestCase):
         s_numpy = neo_convertor.convert_spikes(s)
         self.assertEquals(2400, N_E)
         if self._test_seed == 1:
-            self.assertEquals(244, len(esp_numpy))
+            self.assertEquals(226, len(esp_numpy))
             self.assertEquals(23896, len(s_numpy))
         else:
             try:
