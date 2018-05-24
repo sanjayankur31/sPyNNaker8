@@ -1,7 +1,7 @@
-import p8_integration_tests.scripts.pynnBrunnelPlot as pblt
+import p8_integration_tests.scripts.pynn_brunnel_plot as pblt
 
 from p8_integration_tests.base_test_case import BaseTestCase
-import p8_integration_tests.scripts.pynnBrunnelBrianNestSpinnaker as script
+import p8_integration_tests.scripts.pynn_brunnel_brian_nest_spinnaker as script
 from spynnaker8.utilities import neo_convertor
 from unittest import SkipTest
 

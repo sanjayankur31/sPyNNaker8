@@ -1,5 +1,5 @@
 from p8_integration_tests.base_test_case import BaseTestCase
-import p8_integration_tests.scripts.pynnBrunnelBrianNestSpinnaker as script
+import p8_integration_tests.scripts.pynn_brunnel_brian_nest_spinnaker as script
 
 Neurons = 3000  # number of neurons in each population
 sim_time = 1000

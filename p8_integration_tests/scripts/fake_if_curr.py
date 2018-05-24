@@ -13,7 +13,7 @@ from spynnaker.pyNN.models.neuron.abstract_population_vertex \
 from spynnaker.pyNN.abstract_spinnaker_common import AbstractSpiNNakerCommon
 import os
 
-BINARY = "Fake_IF_curr_exp.aplx"
+BINARY = "fake_if_curr_exp.aplx"
 
 
 class FakeIFCurrExp(AbstractPopulationVertex):
@@ -61,7 +61,7 @@ class FakeIFCurrExp(AbstractPopulationVertex):
             max_atoms_per_core=FakeIFCurrExp._model_based_max_atoms_per_core,
             spikes_per_second=spikes_per_second,
             ring_buffer_sigma=ring_buffer_sigma,
-            model_name="Fake_IF_curr_exp", neuron_model=neuron_model,
+            model_name="fake_if_curr_exp", neuron_model=neuron_model,
             input_type=input_type, synapse_type=synapse_type,
             threshold_type=threshold_type, constraints=constraints,
             incoming_spike_buffer_size=None)
